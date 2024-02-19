@@ -2,6 +2,8 @@ module architecture_go
 
 go 1.18
 
+require github.com/lib/pq v1.10.9
+
 require (
 	cloud.google.com/go v0.100.2 // indirect
 	cloud.google.com/go/compute v1.5.0 // indirect
